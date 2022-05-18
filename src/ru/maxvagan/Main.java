@@ -47,5 +47,13 @@ public class Main {
         System.out.println("arrayValue2 after void treatment = " + Arrays.toString(arrayValue2));
         // task 9
         System.out.println("Task 9");
+        clsPerson person = new clsPerson("Lyapis", "Trubetskoy");
+        System.out.println("Before changing person " + person);
+        person.changePerson(person);
+        System.out.println("After changing person " + person);
+        // task 10
+        System.out.println("Task 10");
+        person.changePerson2(person);
+        System.out.println("After changing2 person " + person);
     }
 }
